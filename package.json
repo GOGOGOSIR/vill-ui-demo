@@ -2,13 +2,11 @@
   "name": "vill-ui-demo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/GOGOGOSIR/vill-ui-demo/",
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "anz": "vue-cli-service build --report",
-    "deploy": "node ./node_modules/vue-gh-pages/index.js"
+    "anz": "vue-cli-service build --report"
   },
   "dependencies": {
     "@shawbs/ms-ui": "^0.2.9",
@@ -32,7 +30,6 @@
     "node-sass": "^4.14.1",
     "postcss-px2rem": "^0.3.0",
     "sass-loader": "^8.0.2",
-    "vue-gh-pages": "^1.19.1",
     "vue-template-compiler": "^2.6.11",
     "webpack-bundle-analyzer": "^3.8.0"
   },
