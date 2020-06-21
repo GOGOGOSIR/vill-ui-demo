@@ -6,13 +6,16 @@ import {
   Cell,
   Checkbox,
   CheckboxGroup,
+  CascadePicker,
   Dialog,
   DropdownMenu,
   DropdownMenuItem,
+  DatePicker,
   Empty,
   Icon,
   Input,
   ImagePreview,
+  Picker,
   Loading,
   NavBar,
   Radio,
@@ -30,8 +33,8 @@ import {
   Toast,
   Textarea
 } from 'vill-ui'
-// import vill from 'vill-ui'
 import './theme.scss'
+// import vill from 'vill-ui'
 
 Vue.use(ActionSheet)
 Vue.use(Button)
@@ -39,14 +42,17 @@ Vue.use(Badge)
 Vue.use(Cell)
 Vue.use(Checkbox)
 Vue.use(CheckboxGroup)
+Vue.use(CascadePicker)
 Vue.use(Dialog)
 Vue.use(DropdownMenu)
 Vue.use(DropdownMenuItem)
+Vue.use(DatePicker)
 Vue.use(Empty)
 Vue.use(Icon)
 Vue.use(Input)
 Vue.use(ImagePreview)
 Vue.use(Loading)
+Vue.use(Picker)
 Vue.use(NavBar)
 Vue.use(Radio)
 Vue.use(RadioGroup)

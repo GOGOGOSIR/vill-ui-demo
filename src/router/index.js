@@ -1,28 +1,33 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
+import uiPage from '@/views/uiPage/index.vue'
+import formPage from '@/views/formPage/index.vue'
+import operatePage from '@/views/operatePage/index.vue'
+import scrollPage from '@/views/scrollPage/index.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
     name: 'uiPage',
-    component: () => import('@/views/uiPage/index.vue')
+    component: uiPage
   },
   {
     path: '/formPage',
     name: 'formPage',
-    component: () => import('@/views/formPage/index.vue')
+    component: formPage
   },
   {
     path: '/operatePage',
     name: 'operatePage',
-    component: () => import('@/views/operatePage/index.vue')
+    component: operatePage
   },
   {
     path: '/scrollPage',
     name: 'scrollPage',
-    component: () => import('@/views/scrollPage/index.vue')
+    component: scrollPage
   },
   {
     path: '/button',
@@ -154,7 +159,21 @@ const routes = [
     name: 'scroll-nav-bar',
     component: () => import('@/views/scroll-nav-bar/index.vue')
   },
- 
+  {
+    path: '/picker',
+    name: 'picker',
+    component: () => import('@/views/picker/index.vue')
+  },
+  {
+    path: '/cascade-picker',
+    name: 'cascade-picker',
+    component: () => import('@/views/cascade-picker/index.vue')
+  },
+  {
+    path: '/date-picker',
+    name: 'date-picker',
+    component: () => import('@/views/date-picker/index.vue')
+  }
 ]
 
 const router = new VueRouter({
