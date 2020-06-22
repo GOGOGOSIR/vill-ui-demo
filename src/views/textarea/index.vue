@@ -34,7 +34,7 @@
           v-model="value_4"
           placeholder="请输入内容"
           :maxlength="10"
-          :autofocus="true"
+          :autofocus="false"
           :height="200"
           :showLimitCount="false"
           @change="handleChange"

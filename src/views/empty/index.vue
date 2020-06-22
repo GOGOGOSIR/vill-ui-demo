@@ -3,11 +3,7 @@
     <template #main>
       <div class="items">
         <p class="item_title">数据为空</p>
-        <vill-empty image="noData" description="暂无数据" />
-      </div>
-      <div class="items">
-        <p class="item_title">搜索为空</p>
-        <vill-empty image="search" description="没有找到数据哦" />
+        <vill-empty description="暂无数据" />
       </div>
       <div class="items">
         <p class="item_title">定制图片的样式</p>
@@ -40,3 +36,9 @@ export default {
   }
 }
 </script>
+<style scoped>
+.text{
+  font-size: 15px;
+  margin-top: 10px;
+}
+</style>

@@ -33,7 +33,8 @@ import {
   Toast,
   Textarea
 } from 'vill-ui'
-import './theme.scss'
+import 'vill-ui/lib/common/style/index.css'
+// import './theme.scss'
 // import vill from 'vill-ui'
 
 Vue.use(ActionSheet)
